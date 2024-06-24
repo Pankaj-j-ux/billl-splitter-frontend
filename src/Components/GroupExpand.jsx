@@ -149,7 +149,7 @@ const GroupExpand = ({ groupData, profileData, isExtendedSidebar }) => {
         style={{ marginLeft: isExtendedSidebar ? "280px" : "80px" }}
       >
         {gid ? (
-          isLoading ? (
+          false ? (
             <>
               <Loader />
             </>
